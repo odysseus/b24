@@ -1,9 +1,9 @@
 (ns b24.views.layout
   (:require [hiccup.page :refer [html5 include-css]]))
 
-(defn common [& body]
+(defn common [title & body]
   (html5
     [:head
-     [:title "Welcome to b24"]
+     [:title title]
      (include-css "/css/screen.css")]
     [:body body]))
