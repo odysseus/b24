@@ -1,5 +1,5 @@
 (defproject b24 "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "Example Compojure app using Liberator to handle requests"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.6"]
